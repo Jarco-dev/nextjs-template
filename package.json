@@ -1,0 +1,36 @@
+{
+  "name": "nextjs-template",
+  "version": "0.0.0",
+  "description": "Jarco's NextJS template",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "fix": "gts fix"
+  },
+  "dependencies": {
+    "next": "^13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^13.0.0",
+    "@types/node": "^16.18.0",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "autoprefixer": "^10.4.13",
+    "gts": "^3.1.1",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1",
+    "typescript": "^4.8.4"
+  },
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Jarco-dev",
+    "email": "jarco@familiekers.nl",
+    "url": "https://github.com/Jarco-dev"
+  },
+  "private": true
+}
