@@ -43,9 +43,6 @@
     ],
     "@/types/*": [
       "types/index.d.ts"
-    ],
-    "@/app/*": [
-      "app/*"
     ]
   }
 }
