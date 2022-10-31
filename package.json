@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "gts lint",
     "clean": "gts clean",
-    "fix": "gts fix && prettier --write ."
+    "fix": "npm run fix:lint & npm run fix:prettier",
+    "fix:lint": "gts fix",
+    "fix:prettier": "prettier --write ."
   },
   "dependencies": {
     "next": "^13.0.0",
