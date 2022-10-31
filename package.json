@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "gts lint",
     "clean": "gts clean",
-    "fix": "gts fix"
+    "fix": "gts fix && prettier --write ."
   },
   "dependencies": {
     "next": "^13.0.0",
