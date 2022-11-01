@@ -23,7 +23,7 @@
       "@/utils/*": ["utils/*"],
       "@/classes/*": ["modules/*"],
       "@/public/*": ["public/*"],
-      "@/types/*": ["types/*"],
+      "@/types": ["types/index.d.ts"],
       "@/styles/*": ["styles/*"]
     }
   },
