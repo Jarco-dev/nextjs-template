@@ -3,5 +3,6 @@ module.exports = {
   bracketSpacing: true,
   singleQuote: false,
   trailingComma: "none",
-  endOfLine: "lf"
+  endOfLine: "lf",
+  printWidth: 120
 };
